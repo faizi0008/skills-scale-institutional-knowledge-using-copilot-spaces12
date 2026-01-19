@@ -30,6 +30,14 @@ Below are all the primary process documents that guide our work:
 
 - **[Roles and Personas](octoacme-roles-and-personas.md)** — Detailed descriptions of typical roles and responsibilities at OctoAcme.
 
+## Templates & Checklists
+
+These templates provide practical tools for ensuring accountability and clarity in key processes:
+
+- **[Release Readiness Checklist Template](release-readiness-checklist-template.md)** — Comprehensive checklist with role-specific responsibilities and sign-offs for release planning and execution.
+
+- **[QA Handoff Checklist Template](qa-handoff-checklist-template.md)** — Template for managing quality handoffs between Product, Development, QA, Release, and Support teams.
+
 ## Getting Started
 
 If you're new to OctoAcme's project management processes:
