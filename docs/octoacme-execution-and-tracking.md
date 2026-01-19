@@ -13,15 +13,18 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
-  - Run automated tests and linting in CI before requesting review
+  - Run automated tests and linting in CI before requesting review (monitored by DevOps Engineer)
   - Require at least one approval before merging (or team-defined policy)
+  - QA Lead reviews for quality and test coverage
 
 ## Quality & Testing
-- Unit tests for new logic
+- **QA Lead** oversees quality strategy and test planning
+- Unit tests for new logic (written by Developers)
 - Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- End-to-end smoke tests for critical flows before release (coordinated by QA Lead)
+- Security scanning in CI (configured by DevOps Engineer)
+- Manual QA for feature acceptance when needed (led by QA Lead)
+- **QA Lead** provides final acceptance sign-off before features move to release
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +38,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests and lint (by DevOps Engineer)
+- [ ] Quality gates defined and communicated (by QA Lead)
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Release schedule aligned with Release Manager
